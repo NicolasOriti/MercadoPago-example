@@ -1,0 +1,29 @@
+{
+  "name": "mercadopago-example",
+  "version": "1.0.0",
+  "description": "Ejemplo practico de mercadopago",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasOriti/MercadoPago-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasOriti/MercadoPago-example/issues"
+  },
+  "homepage": "https://github.com/NicolasOriti/MercadoPago-example#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mercadopago": "^1.5.17",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
